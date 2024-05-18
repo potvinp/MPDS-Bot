@@ -42,7 +42,7 @@ client.on('messageCreate', async message => {
     const result = data.find(item => item.code.toUpperCase() === query);
     console.log('Query result:', result);
     if (result) {
-      message.channel.send(result.meaning);
+      message.channel.send(`${result.code} - ${result.meaning}`);
     } else {
       message.channel.send("No results found.");
     }
@@ -60,7 +60,7 @@ client.on('interactionCreate', async interaction => {
     const result = data.find(item => item.code.toUpperCase() === query);
     console.log('Query result:', result);
     if (result) {
-      await interaction.reply(result.meaning);
+      await interaction.reply(`${result.code} - ${result.meaning}`);
     } else {
       await interaction.reply("No results found.");
     }
