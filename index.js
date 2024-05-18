@@ -37,9 +37,9 @@ client.once('ready', () => {
 
 client.on('messageCreate', async message => {
   if (message.content.startsWith(prefix)) {
-    const query = message.content.slice(prefix.length).trim();
+    const query = message.content.slice(prefix.length).trim().toUpperCase();
     console.log('Received query:', query);
-    const result = data.find(item => item.code === query);
+    const result = data.find(item => item.code.toUpperCase() === query);
     console.log('Query result:', result);
     if (result) {
       message.channel.send(result.meaning);
@@ -55,9 +55,9 @@ client.on('interactionCreate', async interaction => {
   const { commandName, options } = interaction;
 
   if (commandName === 'mpds') {
-    const query = options.getString('code');
+    const query = options.getString('code').toUpperCase();
     console.log('Received query:', query);
-    const result = data.find(item => item.code === query);
+    const result = data.find(item => item.code.toUpperCase() === query);
     console.log('Query result:', result);
     if (result) {
       await interaction.reply(result.meaning);
