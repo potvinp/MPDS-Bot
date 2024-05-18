@@ -1,5 +1,1706 @@
 [
-    {"code": "example1", "meaning": "This is the meaning for example1"},
-    {"code": "example2", "meaning": "This is the meaning for example2"}
-  ]
-  
+    {
+        "code": "1",
+        "meaning": "Abdominal Pain/Problems"
+    },
+    {
+        "code": "1D01",
+        "meaning": "Abd Pain: Not Alert"
+    },
+    {
+        "code": "1D02",
+        "meaning": "Abd Pain: Ashen or Gray color reported  >50"
+    },
+    {
+        "code": "1C01",
+        "meaning": "Abd Pain: Suspected aortic aneurysm  > 50"
+    },
+    {
+        "code": "1C02",
+        "meaning": "Abd Pain: Diagnosed aortic aneurysm"
+    },
+    {
+        "code": "1C03",
+        "meaning": "Abd Pain: Fainting or near fainting  > 50"
+    },
+    {
+        "code": "1C04",
+        "meaning": "Abd Pain: Female with fainting or nearfainting 12-50"
+    },
+    {
+        "code": "1C05",
+        "meaning": "Abd Pain: Males with pain above navel  >35"
+    },
+    {
+        "code": "1C06",
+        "meaning": "Abd Pain: Females with pain above navel  >45"
+    },
+    {
+        "code": "1A01",
+        "meaning": "Abd Pain: Abdominal Pain"
+    },
+    {
+        "code": "1A02",
+        "meaning": "Abd Pain: Testicle or groin (male)"
+    },
+    {
+        "code": "2",
+        "meaning": "Allergies (Reactions)/Envenomation (Stings, Bites)"
+    },
+    {
+        "code": "20",
+        "meaning": "Allergies/Envenom: Ineffective Breathing"
+    },
+    {
+        "code": "2D01",
+        "meaning": "Allergies/Envenom: Not Alert"
+    },
+    {
+        "code": "2D02",
+        "meaning": "Allergies/Envenom: Difficulty Speakingbetween Breaths"
+    },
+    {
+        "code": "2D03",
+        "meaning": "Envenomation: Swarming attack (bees,wasps, hornets, etc.)"
+    },
+    {
+        "code": "2D04",
+        "meaning": "Envenomation: Snakebite"
+    },
+    {
+        "code": "2C01",
+        "meaning": "Allergies/Envenom: Difficulty breathing or swallowing"
+    },
+    {
+        "code": "2C02",
+        "meaning": "Allergies/Envenom: History of severeallergic reaction"
+    },
+    {
+        "code": "2B01",
+        "meaning": "Allergies/Envenom: Unknown status/Other codes not applicable"
+    },
+    {
+        "code": "2A01",
+        "meaning": "Allergies: No difficulty breathing orswallowing (rash, hives, or itching may be present)"
+    },
+    {
+        "code": "2A02",
+        "meaning": "Envenomation: Spider bite"
+    },
+    {
+        "code": "2A03",
+        "meaning": "Asymptomatic allergic reaction complaint (no severe reaction history)"
+    },
+    {
+        "code": "3",
+        "meaning": "Animal Bites/Attacks"
+    },
+    {
+        "code": "3D01",
+        "meaning": "Animal Bite: Arrest"
+    },
+    {
+        "code": "3D02",
+        "meaning": "Animal Bite: Unconscious"
+    },
+    {
+        "code": "3D03",
+        "meaning": "Animal Bite: Not Alert"
+    },
+    {
+        "code": "3D04",
+        "meaning": "Animal Bite: Chest or Neck Injury (withdifficulty breathing)"
+    },
+    {
+        "code": "3D05",
+        "meaning": "Animal Bite: Dangerous body area"
+    },
+    {
+        "code": "3D06",
+        "meaning": "Animal Bite: Large animal"
+    },
+    {
+        "code": "3D07",
+        "meaning": "Animal Bite: Exotic animal"
+    },
+    {
+        "code": "3D08",
+        "meaning": "Animal Bite: Mauling or multiple animals"
+    },
+    {
+        "code": "3D09",
+        "meaning": "Animal Bite: Attack in progress"
+    },
+    {
+        "code": "3B01",
+        "meaning": "Animal Bite: Poss. Dangerous body area"
+    },
+    {
+        "code": "3B02",
+        "meaning": "Animal Bite: Serious hemorrhage"
+    },
+    {
+        "code": "3B03",
+        "meaning": "Animal Bite: Unknown Status/ other codesnot applicable"
+    },
+    {
+        "code": "3A01",
+        "meaning": "Animal Bite - Marked (*) NOT DANGEROUS body area with deformity"
+    },
+    {
+        "code": "3A02",
+        "meaning": "Animal Bite - NOT DANGEROUS body area"
+    },
+    {
+        "code": "3A03",
+        "meaning": "Animal Bite - NON-RECENT (≥6 hrs) injuries(without priority symptoms)"
+    },
+    {
+        "code": "3A04",
+        "meaning": "Animal Bite - SUPERFICIAL injuries"
+    },
+    {
+        "code": "4",
+        "meaning": "Assault/Sexual Assault/Stun Gun"
+    },
+    {
+        "code": "4D01",
+        "meaning": "Assault: Arrest"
+    },
+    {
+        "code": "4D02",
+        "meaning": "Assault: Unconscious"
+    },
+    {
+        "code": "4D03",
+        "meaning": "Assault: Not alert"
+    },
+    {
+        "code": "4D04",
+        "meaning": "Assault: Chest or neck injury (with difficultybreathing)"
+    },
+    {
+        "code": "4D05",
+        "meaning": "Assault: Multiple victims"
+    },
+    {
+        "code": "4B01s",
+        "meaning": "Assault: Poss. Dangerous body area"
+    },
+    {
+        "code": "4B01a,t",
+        "meaning": "Assault: Poss. Dangerous body area"
+    },
+    {
+        "code": "4B02",
+        "meaning": "Assault: Serious hemorrhage"
+    },
+    {
+        "code": "4B03",
+        "meaning": "Assault: Unknown status/Other codes not applicable"
+    },
+    {
+        "code": "4A01",
+        "meaning": "Assault: Not dangerous body area with deformity"
+    },
+    {
+        "code": "4A02",
+        "meaning": "Assault/Sexual Assault: Not dangerous body area"
+    },
+    {
+        "code": "4A03",
+        "meaning": "Assault/Sexual Assault: Non-Recent ( >6hrs) injuries (without pri sympt)"
+    },
+    {
+        "code": "5",
+        "meaning": "Back Pain (Non- Traumatic or Non- Recent Trauma)"
+    },
+    {
+        "code": "5D01",
+        "meaning": "Back Pain: Not Alert"
+    },
+    {
+        "code": "5D02",
+        "meaning": "Back Pain: Ashen or gray color reported  > 50"
+    },
+    {
+        "code": "5C01",
+        "meaning": "Back Pain: Suspected aortic aneurysm  > 50"
+    },
+    {
+        "code": "5C02",
+        "meaning": "Back Pain: Diagnosed aortic aneurysm"
+    },
+    {
+        "code": "5C03",
+        "meaning": "Back Pain: Fainting or near fainting  > 50"
+    },
+    {
+        "code": "5C04",
+        "meaning": "Back Pain: Difficulty breathing"
+    },
+    {
+        "code": "5A01",
+        "meaning": "Back Pain: Non-traumatic back pain"
+    },
+    {
+        "code": "5A02",
+        "meaning": "Back Pain: Non-Recent ( >6hrs) injuries (without pri sympt)"
+    },
+    {
+        "code": "6",
+        "meaning": "Breathing Problem"
+    },
+    {
+        "code": "60",
+        "meaning": "Breathing Prob: Ineffective Breathing"
+    },
+    {
+        "code": "6D01",
+        "meaning": "Breathing Prob: Not Alert"
+    },
+    {
+        "code": "6D02",
+        "meaning": "Breathing Prob: Difficulty Speaking btwbreaths"
+    },
+    {
+        "code": "6D03",
+        "meaning": "Breathing Prob: Changing color"
+    },
+    {
+        "code": "6D04",
+        "meaning": "Breathing Prob: Clammy or cold sweats"
+    },
+    {
+        "code": "6D05",
+        "meaning": "Breathing Prob: Tracheostomy (obviousdistress)"
+    },
+    {
+        "code": "6C01",
+        "meaning": "Breathing Prob: Abnormal Breathing"
+    },
+    {
+        "code": "6C02",
+        "meaning": "Breathing Prob: Tracheostomy (no obvious distress)"
+    },
+    {
+        "code": "7",
+        "meaning": "Burns(Scalds)/Explosion (Blast)"
+    },
+    {
+        "code": "70",
+        "meaning": "Burns: Person on Fire"
+    },
+    {
+        "code": "7D01",
+        "meaning": "Burns: Multiple victims"
+    },
+    {
+        "code": "7D02",
+        "meaning": "Burns: Arrest"
+    },
+    {
+        "code": "7D03",
+        "meaning": "Burns: Unconscious"
+    },
+    {
+        "code": "7D04",
+        "meaning": "Burns: Not alert"
+    },
+    {
+        "code": "7D05",
+        "meaning": "Burns: Difficulty Speaking btw breaths"
+    },
+    {
+        "code": "7C01",
+        "meaning": "Burns: Fire with person inside"
+    },
+    {
+        "code": "7C02",
+        "meaning": "Burns: Difficulty breathing"
+    },
+    {
+        "code": "7C03",
+        "meaning": "Burns: Burns  > 18% body area"
+    },
+    {
+        "code": "7C04",
+        "meaning": "Burns: Significant facial burns"
+    },
+    {
+        "code": "7B01",
+        "meaning": "Burns/Explosion: Blast injuries (without pri sympt)"
+    },
+    {
+        "code": "7B02",
+        "meaning": "Burns: Unknown status/Other codes not applicable"
+    },
+    {
+        "code": "7A01",
+        "meaning": "Burns: Burns &lt; 18% body area"
+    },
+    {
+        "code": "7A02",
+        "meaning": "Burns: Fire alarm (unknown situation)"
+    },
+    {
+        "code": "7A03",
+        "meaning": "Burns: Minor burns"
+    },
+    {
+        "code": "7A04",
+        "meaning": "Burns: Sunburn"
+    },
+    {
+        "code": "7A05",
+        "meaning": "Burns: Non-Recent ( >6hrs) injuries (without pri sympt)"
+    },
+    {
+        "code": "8",
+        "meaning": "Carbon Monoxide/Inhalation/Hazmat/CBRN"
+    },
+    {
+        "code": "8D01",
+        "meaning": "CO: Arrest"
+    },
+    {
+        "code": "8D02",
+        "meaning": "CO: Unconscious"
+    },
+    {
+        "code": "8D03",
+        "meaning": "CO: Not alert"
+    },
+    {
+        "code": "8D04",
+        "meaning": "CO: Difficulty Speaking btw breaths"
+    },
+    {
+        "code": "8D05",
+        "meaning": "CO: Multiple victims"
+    },
+    {
+        "code": "8D06",
+        "meaning": "CO: Unknown status/other codes notapplicable"
+    },
+    {
+        "code": "8C01",
+        "meaning": "CO: Alert with difficulty breathing"
+    },
+    {
+        "code": "8B01",
+        "meaning": "CO: Alert without difficulty breathing"
+    },
+    {
+        "code": "8Ω01",
+        "meaning": "CO: CO detector alarm(scene contactwithout pri sympt)"
+    },
+    {
+        "code": "8Ω02",
+        "meaning": "CO: CO detector alarm (alarm only, noscene contact)"
+    },
+    {
+        "code": "9",
+        "meaning": "Cardiac or Respiratory Arrest/Death"
+    },
+    {
+        "code": "90",
+        "meaning": "Cardiac Arrest: Not breathing at all"
+    },
+    {
+        "code": "900",
+        "meaning": "Cardiac Arrest: Uncertain breathing"
+    },
+    {
+        "code": "9000",
+        "meaning": "Cardiac Arrest: Hanging"
+    },
+    {
+        "code": "90000",
+        "meaning": "Cardiac Arrest: Strangulation"
+    },
+    {
+        "code": "900000",
+        "meaning": "Cardiac Arrest: Suffocation"
+    },
+    {
+        "code": "9D01",
+        "meaning": "Cardiac Arrest: Ineffective breathing"
+    },
+    {
+        "code": "9D02",
+        "meaning": "Cardiac Arrest: Obvious or Expected deathquestionable (a-f; x-z)"
+    },
+    {
+        "code": "9B01a-e",
+        "meaning": "Cardiac Arrest: Obvious death unquestionable (a-e)"
+    },
+    {
+        "code": "9B01f",
+        "meaning": "Cardiac Arrest: Obvious death unquestionable (f)"
+    },
+    {
+        "code": "9Ω01",
+        "meaning": "Cardiac Arrest: Expected death unquestionable (x-y)"
+    },
+    {
+        "code": "10",
+        "meaning": "Chest Pain/Chest Discomfort (Non- Traumatic)"
+    },
+    {
+        "code": "10D01",
+        "meaning": "Chest Pain: Not alert"
+    },
+    {
+        "code": "10D02",
+        "meaning": "Chest Pain: Difficulty Speaking btw breaths"
+    },
+    {
+        "code": "10D03",
+        "meaning": "Chest Pain: Changing color"
+    },
+    {
+        "code": "10D04",
+        "meaning": "Chest Pain: Clammy or cold sweats"
+    },
+    {
+        "code": "10D05",
+        "meaning": "Chest Pain: Heart attack or angina history"
+    },
+    {
+        "code": "10C01",
+        "meaning": "Chest Pain: Abnormal breathing"
+    },
+    {
+        "code": "10C02",
+        "meaning": "Chest Pain: Cocaine"
+    },
+    {
+        "code": "10C03",
+        "meaning": "Chest Pain: Breathing normally  > 35"
+    },
+    {
+        "code": "10A01",
+        "meaning": "Chest Pain: Breathing normally &lt; 35"
+    },
+    {
+        "code": "11",
+        "meaning": "Choking"
+    },
+    {
+        "code": "11E01",
+        "meaning": "Choking: Complete obstruction/Ineffectivebreathing"
+    },
+    {
+        "code": "11D01",
+        "meaning": "Choking: Abnormal breathing (Partialobstruction)"
+    },
+    {
+        "code": "11D02",
+        "meaning": "Choking: Not alert"
+    },
+    {
+        "code": "11A01",
+        "meaning": "Choking: Not choking now(can talk/cry, is alert &amp;breathing normally)"
+    },
+    {
+        "code": "12",
+        "meaning": "Convulsions/Seizures"
+    },
+    {
+        "code": "12D01",
+        "meaning": "Seizures: Not breathing"
+    },
+    {
+        "code": "12D02",
+        "meaning": "Seizures: Continuous or multiple seizures"
+    },
+    {
+        "code": "12D03",
+        "meaning": "Seizures: Agonal/ineffective breathing"
+    },
+    {
+        "code": "12D04",
+        "meaning": "Seizures: Effective breathing not verified  >35"
+    },
+    {
+        "code": "12C01",
+        "meaning": "Seizures: Focal/Absence seizures (notalert)"
+    },
+    {
+        "code": "12C02",
+        "meaning": "Seizures: Pregnancy"
+    },
+    {
+        "code": "12C03",
+        "meaning": "Seizures: Diabetic"
+    },
+    {
+        "code": "12C04",
+        "meaning": "Seizures: Not seizing now &amp; effective breathing verified ( >6, confirmed noseizure disorder)"
+    },
+    {
+        "code": "12C05",
+        "meaning": "Seizures: History of stroke or brain tumor"
+    },
+    {
+        "code": "12C06",
+        "meaning": "Seizures: Overdose/Poisoning (ingestion)"
+    },
+    {
+        "code": "12C07",
+        "meaning": "Seizures: Atypical seizure"
+    },
+    {
+        "code": "12B01",
+        "meaning": "Seizures: Effective breathing not verified &lt; 35"
+    },
+    {
+        "code": "12A01",
+        "meaning": "Seizures: Not seizing now &amp; effective breathing verified (known seizure disorder)"
+    },
+    {
+        "code": "12A02",
+        "meaning": "Seizures: Not seizing now &amp; effective breathing verified (seizure disorderunknown)"
+    },
+    {
+        "code": "12A03",
+        "meaning": "Seizures: Not seizing now &amp; effective breathing verified (&lt; 6, confirmed noseizure disorder)"
+    },
+    {
+        "code": "12A04",
+        "meaning": "Seizures: Focal/Absence seizure"
+    },
+    {
+        "code": "12A05",
+        "meaning": "Seizures: Impending Seizure (aura)"
+    },
+    {
+        "code": "13",
+        "meaning": "Diabetic Problems"
+    },
+    {
+        "code": "13D01",
+        "meaning": "Diabetic: Unconscious"
+    },
+    {
+        "code": "13C01",
+        "meaning": "Diabetic: Not alert"
+    },
+    {
+        "code": "13C02",
+        "meaning": "Diabetic: Abnormal behavior"
+    },
+    {
+        "code": "13C03",
+        "meaning": "Diabetic: Abnormal breathing"
+    },
+    {
+        "code": "13A01",
+        "meaning": "Diabetic: Alert and behaving normally"
+    },
+    {
+        "code": "14",
+        "meaning": "Drowning/Near Drowning/Diving/Scuba Accident"
+    },
+    {
+        "code": "14E01",
+        "meaning": "Drowning: Arrest (out of water)"
+    },
+    {
+        "code": "14E02",
+        "meaning": "Drowning: Underwater (Domestic rescue)"
+    },
+    {
+        "code": "14D01",
+        "meaning": "Drowning: Unconscious"
+    },
+    {
+        "code": "14D02",
+        "meaning": "Drowning: underwater (Specialized rescue)"
+    },
+    {
+        "code": "14D03",
+        "meaning": "Drowning: Stranded (Specialized rescue)"
+    },
+    {
+        "code": "14D04",
+        "meaning": "Drowning: Just resuscitated and/ordefibrillated (external)"
+    },
+    {
+        "code": "14D05",
+        "meaning": "Drowning: Not alert"
+    },
+    {
+        "code": "14D06",
+        "meaning": "Drowning: Suspected neck injury"
+    },
+    {
+        "code": "14C01",
+        "meaning": "Drowning: Alert with abnormal breathing"
+    },
+    {
+        "code": "14C02",
+        "meaning": "Drowning - Decompression sickness (thebends)"
+    },
+    {
+        "code": "14B01",
+        "meaning": "Drowning: Alert and breathing normally(injuries or in water)"
+    },
+    {
+        "code": "14B02",
+        "meaning": "Drowning: Obvious Death (submersion  > 6hrs)"
+    },
+    {
+        "code": "14B03",
+        "meaning": "Drowning: Unknown status/other codesnot applicable"
+    },
+    {
+        "code": "14A01",
+        "meaning": "Drowning: Alert and breathing normally (no injuries &amp; out of water)"
+    },
+    {
+        "code": "15",
+        "meaning": "Electrocution/Lighting"
+    },
+    {
+        "code": "15E01",
+        "meaning": "Electrocution: Not breathing/Ineffectivebreathing"
+    },
+    {
+        "code": "15D01",
+        "meaning": "Electrocution: Multiple victims"
+    },
+    {
+        "code": "15D02",
+        "meaning": "Electrocution: Unconscious"
+    },
+    {
+        "code": "15D03",
+        "meaning": "Electrocution: Not disconnected frompower"
+    },
+    {
+        "code": "15D04",
+        "meaning": "Electrocution: Power not off or hazardpresent"
+    },
+    {
+        "code": "15D05",
+        "meaning": "Electrocution: Extreme fall ( > 30ft/10m)"
+    },
+    {
+        "code": "15D06",
+        "meaning": "Electrocution: Long fall"
+    },
+    {
+        "code": "15D07",
+        "meaning": "Electrocution: Not alert"
+    },
+    {
+        "code": "15D08",
+        "meaning": "Electrocution: Abnormal breathing"
+    },
+    {
+        "code": "15D09",
+        "meaning": "Electrocution: Unknown status/othercodes not applicable"
+    },
+    {
+        "code": "15C01",
+        "meaning": "Electrocution: Alert and breathing normally"
+    },
+    {
+        "code": "16",
+        "meaning": "Eye Problems/Injuries"
+    },
+    {
+        "code": "16D01",
+        "meaning": "Eye Prob: Not alert"
+    },
+    {
+        "code": "16B01",
+        "meaning": "Eye Prob: Severe eye injuries"
+    },
+    {
+        "code": "16A01",
+        "meaning": "Eye Prob: Moderate eye injuries"
+    },
+    {
+        "code": "16A02",
+        "meaning": "Eye Prob: Minor eye injuries"
+    },
+    {
+        "code": "16A03",
+        "meaning": "Eye Prob: Medical eye problems"
+    },
+    {
+        "code": "17",
+        "meaning": "Falls"
+    },
+    {
+        "code": "17D01",
+        "meaning": "Fall: Extreme all ( > 30ft/10m)"
+    },
+    {
+        "code": "17D02",
+        "meaning": "Fall: Arrest"
+    },
+    {
+        "code": "17D03",
+        "meaning": "Fall: Unconscious"
+    },
+    {
+        "code": "17D04",
+        "meaning": "Fall: Not alert"
+    },
+    {
+        "code": "17D05",
+        "meaning": "Fall: Chest or neck injury (with difficultybreathing)"
+    },
+    {
+        "code": "17D06",
+        "meaning": "Fall: Long fall"
+    },
+    {
+        "code": "17B01",
+        "meaning": "Fall: Possibly dangerous body area"
+    },
+    {
+        "code": "17B02",
+        "meaning": "Fall: Serious hemorrhage"
+    },
+    {
+        "code": "17B03",
+        "meaning": "Fall: Fall down (not on) stairs"
+    },
+    {
+        "code": "17B04",
+        "meaning": "Fall: Unknown status/Other codes not applicable"
+    },
+    {
+        "code": "17A01",
+        "meaning": "Fall: Not dangerous body area withdeformity"
+    },
+    {
+        "code": "17A02",
+        "meaning": "Fall: Not dangerous body area"
+    },
+    {
+        "code": "17A03",
+        "meaning": "Fall: Non-recent ( > 6hrs) (without pri sympt)"
+    },
+    {
+        "code": "17A04",
+        "meaning": "Fall: Public assist (no injuries and no pri sympt)"
+    },
+    {
+        "code": "18",
+        "meaning": "Headache"
+    },
+    {
+        "code": "18C01",
+        "meaning": "Headache: Not alert"
+    },
+    {
+        "code": "18C02",
+        "meaning": "Headache: Abnormal breathing"
+    },
+    {
+        "code": "18C03",
+        "meaning": "Headache: Speech problems"
+    },
+    {
+        "code": "18C04",
+        "meaning": "Headache: Sudden onset of severe pain"
+    },
+    {
+        "code": "18C05",
+        "meaning": "Headache: Numbness"
+    },
+    {
+        "code": "18C06",
+        "meaning": "Headache: Paralysis"
+    },
+    {
+        "code": "18C07",
+        "meaning": "Headache: Change in behavior (&lt; 3hrs)"
+    },
+    {
+        "code": "18B01",
+        "meaning": "Headache: Unknown status/other codes not applicable"
+    },
+    {
+        "code": "18A01",
+        "meaning": "Headache: Breathing normally"
+    },
+    {
+        "code": "19",
+        "meaning": "Heart Problems/A.I.C.D"
+    },
+    {
+        "code": "19D01",
+        "meaning": "Heart Prob: Not alert"
+    },
+    {
+        "code": "19D02",
+        "meaning": "Heart Prob: Difficulty speaking btw breaths"
+    },
+    {
+        "code": "19D03",
+        "meaning": "Heart Prob: Changing color"
+    },
+    {
+        "code": "19D04",
+        "meaning": "Heart Prob: Clammy or cold sweats"
+    },
+    {
+        "code": "19D05",
+        "meaning": "Heart Prob: Just resuscitated and/ordefibrillated (external)"
+    },
+    {
+        "code": "19C01",
+        "meaning": "Heart Prob: Firing of A.I.C.D"
+    },
+    {
+        "code": "19C02",
+        "meaning": "Heart Prob: Abnormal breathing"
+    },
+    {
+        "code": "19C03",
+        "meaning": "Heart Prob: Chest pain/discomfort  > 35"
+    },
+    {
+        "code": "19C04",
+        "meaning": "Heart Prob: Cardiac history"
+    },
+    {
+        "code": "19C05",
+        "meaning": "Heart Prob: Cocaine"
+    },
+    {
+        "code": "19C06",
+        "meaning": "Heart Prob: Heart rate &lt; 50 bpm or  >130bpm (without pri sympt)"
+    },
+    {
+        "code": "19C07",
+        "meaning": "Heart Prob: Unknown status/other codesnot applicable"
+    },
+    {
+        "code": "19A01",
+        "meaning": "Heart Prob: Heart rate  > 50 bpm or &lt; 130 bpm (without pri sympt)"
+    },
+    {
+        "code": "19A02",
+        "meaning": "Heart Prob: Chest pain/discomfort &lt; 35 (without pri sympt)"
+    },
+    {
+        "code": "20",
+        "meaning": "Heat/Cold Exposure"
+    },
+    {
+        "code": "20D01",
+        "meaning": "Heat/Cold Exp: Not alert"
+    },
+    {
+        "code": "20D02",
+        "meaning": "Heat/Cold Exp: Multiple victims (with prisympt)"
+    },
+    {
+        "code": "20C01",
+        "meaning": "Heat/Cold Exp: Heart attack or anginahistory"
+    },
+    {
+        "code": "20B01",
+        "meaning": "Heat/Cold Exp: Change in skin color"
+    },
+    {
+        "code": "20B02",
+        "meaning": "Heat/Cold Exp: Unknown status/other codes not applicable"
+    },
+    {
+        "code": "20A01",
+        "meaning": "Heat/Cold Exp: Alert"
+    },
+    {
+        "code": "21",
+        "meaning": "Hemorrhage/Lacerations"
+    },
+    {
+        "code": "21D01",
+        "meaning": "Hemorrhage/Lac: Arrest"
+    },
+    {
+        "code": "21D02",
+        "meaning": "Hemorrhage/Lac: Unconscious"
+    },
+    {
+        "code": "21D03",
+        "meaning": "Hemorrhage/Lac: Not alert"
+    },
+    {
+        "code": "21D04",
+        "meaning": "Hemorrhage/Lac: Dangerous hemorrhage"
+    },
+    {
+        "code": "21D05",
+        "meaning": "Hemorrhage/Lac: Abnormal bleeding"
+    },
+    {
+        "code": "21C01",
+        "meaning": "Hemorrhage/Lac: Hemorrhage throughTubes"
+    },
+    {
+        "code": "21C02",
+        "meaning": "Hemorrhage/Lac: Hemorrhage of dialysisfistula"
+    },
+    {
+        "code": "21C03",
+        "meaning": "Hemorrhage/Lac: Hemorrhage fromvaricose veins"
+    },
+    {
+        "code": "21B01",
+        "meaning": "Hemorrhage/Lac: Possibly dangerous hemorrhage"
+    },
+    {
+        "code": "21B02",
+        "meaning": "Hemorrhage/Lac: Serious hemorrhage"
+    },
+    {
+        "code": "21B03",
+        "meaning": "Hemorrhage/Lac: Bleeding disorder"
+    },
+    {
+        "code": "21B04",
+        "meaning": "Hemorrhage/Lac: Blood thinners"
+    },
+    {
+        "code": "21A01",
+        "meaning": "Hemorrhage/Lac: Not dangerous hemorrhage"
+    },
+    {
+        "code": "21A02",
+        "meaning": "Hemorrhage/Lac: Minor hemorrhage"
+    },
+    {
+        "code": "22",
+        "meaning": "Inaccessible Incident/Other Entrapments (non- traffic)"
+    },
+    {
+        "code": "22D01",
+        "meaning": "Trapped: Mechanical/Machinery/ObjectEntrapment"
+    },
+    {
+        "code": "22D02",
+        "meaning": "Trapped: Trench collapse"
+    },
+    {
+        "code": "22D03",
+        "meaning": "Trapped: Structure collapse"
+    },
+    {
+        "code": "22D04",
+        "meaning": "Trapped: Confined space entrapment"
+    },
+    {
+        "code": "22D05",
+        "meaning": "Trapped: Inaccessible terrain situation"
+    },
+    {
+        "code": "22D06",
+        "meaning": "Trapped: Mudslide/ Avalanche"
+    },
+    {
+        "code": "22B01",
+        "meaning": "Trapped: No longer trapped (unknown injuries)"
+    },
+    {
+        "code": "22B02",
+        "meaning": "Trapped: Peripheral entrapment only"
+    },
+    {
+        "code": "22B03",
+        "meaning": "Trapped: Unknown status (investigation)/ other codes not applicable"
+    },
+    {
+        "code": "22A01",
+        "meaning": "Trapped: No longer trapped (no injuries)"
+    },
+    {
+        "code": "23",
+        "meaning": "Overdose/Poisoning (ingestion)"
+    },
+    {
+        "code": "23E01",
+        "meaning": "OD/Poisoning - Narcotic/Opioid arrest(obvious)"
+    },
+    {
+        "code": "23D01",
+        "meaning": "OD/Poisoning - Arrest"
+    },
+    {
+        "code": "23D02",
+        "meaning": "OD/Poisoning - Unconscious"
+    },
+    {
+        "code": "23D03",
+        "meaning": "OD/Poisoning - CHANGING COLOR"
+    },
+    {
+        "code": "23C01",
+        "meaning": "OD/Poison: Not alert"
+    },
+    {
+        "code": "23C02",
+        "meaning": "OD/Poison: Abnormal breathing"
+    },
+    {
+        "code": "23C03",
+        "meaning": "OD/Poison: Antidepressants (tricyclic)"
+    },
+    {
+        "code": "23C04",
+        "meaning": "OD/Poison: Cocaine, methamphetamine (or derivatives)"
+    },
+    {
+        "code": "23C05",
+        "meaning": "OD/Poison: Narcotics (heroin, morphine,methadone, Oxycodone, etc.)"
+    },
+    {
+        "code": "23C06",
+        "meaning": "OD/Poison: Acid or alkali (lye)"
+    },
+    {
+        "code": "23C07",
+        "meaning": "OD/Poison: Unknown status/other codesnot applicable"
+    },
+    {
+        "code": "23C08",
+        "meaning": "OD/Poison: Poison control request forresponse"
+    },
+    {
+        "code": "23B01",
+        "meaning": "OD/Poison: Overdose (without pri sympt)"
+    },
+    {
+        "code": "23Ω01",
+        "meaning": "OD/Poison: Poisoning (without pri sympt)"
+    },
+    {
+        "code": "24",
+        "meaning": "Pregnancy/Childbirth/Miscarriage"
+    },
+    {
+        "code": "24D01",
+        "meaning": "Childbirth: Breech or cord"
+    },
+    {
+        "code": "24D02",
+        "meaning": "Childbirth: Head visible/out"
+    },
+    {
+        "code": "24D03",
+        "meaning": "Childbirth: Imminent delivery ( > 6months/24 weeks)"
+    },
+    {
+        "code": "24D04",
+        "meaning": "Childbirth: 3rd Trimester hemorrhage"
+    },
+    {
+        "code": "24D05",
+        "meaning": "Childbirth: High risk complications"
+    },
+    {
+        "code": "24D06",
+        "meaning": "Childbirth: Baby born (complications withbaby)"
+    },
+    {
+        "code": "24D07",
+        "meaning": "Childbirth: Baby born (complications withmother)"
+    },
+    {
+        "code": "24D08",
+        "meaning": "Childbirth: Possible Miscarriage with signsof life"
+    },
+    {
+        "code": "24C01",
+        "meaning": "Childbirth: 2nd Trimester hemorrhage ormiscarriage"
+    },
+    {
+        "code": "24C02",
+        "meaning": "Childbirth: 1st Trimester serioushemorrhage"
+    },
+    {
+        "code": "24C03",
+        "meaning": "Childbirth: Abdominal pain/cramping (&lt; 6months/24 weeks and no fetus or tissue)"
+    },
+    {
+        "code": "24C04",
+        "meaning": "Childbirth: Baby born (no complications )"
+    },
+    {
+        "code": "24B01",
+        "meaning": "Childbirth: labor (delivery not imminent,  > 6 months/24 weeks)"
+    },
+    {
+        "code": "24B02",
+        "meaning": "Childbirth: Unknown status/other codes not applicable"
+    },
+    {
+        "code": "24A01",
+        "meaning": "Childbirth: 1st  Trimester hemorrhage or miscarriage"
+    },
+    {
+        "code": "24A02",
+        "meaning": "Pregnancy - Confirmed STILLBIRTHsituation (≥6 months/24 weeks and nocomplications)"
+    },
+    {
+        "code": "24Ω01",
+        "meaning": "Childbirth: Water broken (no contractions or presenting parts)"
+    },
+    {
+        "code": "25",
+        "meaning": "Psychiatric/Abnormal Behavior/SuicideAttempt"
+    },
+    {
+        "code": "25D01",
+        "meaning": "Psych - Arrest"
+    },
+    {
+        "code": "25D02",
+        "meaning": "Psych - Unconscious"
+    },
+    {
+        "code": "25D03",
+        "meaning": "Psych - Not alert"
+    },
+    {
+        "code": "25D04",
+        "meaning": "Psych - DANGEROUS hemorrhage"
+    },
+    {
+        "code": "25D05",
+        "meaning": "Psych - Near hanging, strangulation, orsuffocation (with difficulty breathing)"
+    },
+    {
+        "code": "25D06",
+        "meaning": "Psych - Jumped now"
+    },
+    {
+        "code": "25C01",
+        "meaning": "ALTERED LOC (history of MENTAL HEALTHCONDITIONS)"
+    },
+    {
+        "code": "25C02",
+        "meaning": "ALTERED LOC (no or unknown history ofMENTAL HEALTH CONDITIONS)"
+    },
+    {
+        "code": "25C03",
+        "meaning": "ALTERED LOC (ingestion ofmedications/substances)"
+    },
+    {
+        "code": "25C04",
+        "meaning": "ALTERED LOC (sudden change inbehavior/personality)"
+    },
+    {
+        "code": "25B01",
+        "meaning": "Psyc: Serious hemorrhage"
+    },
+    {
+        "code": "25B02",
+        "meaning": "Psyc: Non-serious or minor hemorrhage"
+    },
+    {
+        "code": "25B03",
+        "meaning": "Psyc: Threatening suicide"
+    },
+    {
+        "code": "25B04",
+        "meaning": "Psyc: Jumper (threatening)"
+    },
+    {
+        "code": "25B05",
+        "meaning": "Psyc: Near hanging, strangulation, or suffocation (alert without difficultybreathing"
+    },
+    {
+        "code": "25B06",
+        "meaning": "Psyc: Unknown status/other codes not applicable"
+    },
+    {
+        "code": "25A01",
+        "meaning": "Psyc: Non-suicidal and alert"
+    },
+    {
+        "code": "25A02",
+        "meaning": "Psyc: Suicidal (not threatening) and alert"
+    },
+    {
+        "code": "25A03",
+        "meaning": "SUICIDE IDEATION and alert (ingestion of medications/substances)"
+    },
+    {
+        "code": "25Ω01",
+        "meaning": "NON-SUICIDAL and alert (history of MENTAL HEALTH CONDITIONS)"
+    },
+    {
+        "code": "25Ω02",
+        "meaning": "SUICIDE IDEATION and alert (history of MENTAL HEALTH CONDITIONS)"
+    },
+    {
+        "code": "26",
+        "meaning": "Sick Person (Specific Diagnoses)"
+    },
+    {
+        "code": "26D01",
+        "meaning": "Sick Person: Not alert"
+    },
+    {
+        "code": "26C01",
+        "meaning": "Sick Person: Altered level of consciousness"
+    },
+    {
+        "code": "26C02",
+        "meaning": "Sick Person: Abnormal breathing"
+    },
+    {
+        "code": "26C03",
+        "meaning": "Sick Person: Sickle cell crisis/Thalassemia"
+    },
+    {
+        "code": "26C04",
+        "meaning": "Sick Person: Autonomic dysreflexia/hyperreflexia"
+    },
+    {
+        "code": "26C05",
+        "meaning": "Sick Person: Acute adrenal insufficiency/crisis or Addison’s disease"
+    },
+    {
+        "code": "26B01",
+        "meaning": "Sick Person: Unknown status/other codes not applicable"
+    },
+    {
+        "code": "26A01",
+        "meaning": "Sick Person: No pri sympt"
+    },
+    {
+        "code": "26A02-12",
+        "meaning": "Sick Person: Non- pri complaints"
+    },
+    {
+        "code": "26Ω 2-28(1 to 3; 5to 8; 10to 28",
+        "meaning": "Sick Person: Non- pri complaints"
+    },
+    {
+        "code": "26Ω (9)",
+        "meaning": "Sick Person: Non-pri complaints (request to cut off ring)"
+    },
+    {
+        "code": "26Ω (4)",
+        "meaning": "Sick Person: Non –pri complaints (can’t sleep)"
+    },
+    {
+        "code": "27",
+        "meaning": "Stab/Gunshot/Penetrating Trauma"
+    },
+    {
+        "code": "27D01",
+        "meaning": "Stab/GSW/Penetrate: Arrest"
+    },
+    {
+        "code": "27D02",
+        "meaning": "Stab/GSW/Penetrate: Unconscious"
+    },
+    {
+        "code": "27D03",
+        "meaning": "Stab/GSW/Penetrate: Not alert"
+    },
+    {
+        "code": "27D04",
+        "meaning": "Stab/GSW/Penetrate: Central wounds"
+    },
+    {
+        "code": "27D05",
+        "meaning": "Stab/GSW/Penetrate: Multiple wounds"
+    },
+    {
+        "code": "27D06",
+        "meaning": "Stab/GSW/Penetrate: Multiple victims"
+    },
+    {
+        "code": "27B01",
+        "meaning": "Stab/GSW/Penetrate: Non-recent ( > 6hrs) single central wound"
+    },
+    {
+        "code": "27B02",
+        "meaning": "Stab/GSW/Penetrate: Known single peripheral wound"
+    },
+    {
+        "code": "27B03",
+        "meaning": "Stab/GSW/Penetrate: Serious hemorrhage"
+    },
+    {
+        "code": "27B04",
+        "meaning": "Stab/GSW/Penetrate: Unknown status/other codes not applicable"
+    },
+    {
+        "code": "27B05",
+        "meaning": "Stab/GSW/Penetrate: Obvious death"
+    },
+    {
+        "code": "27A01",
+        "meaning": "Stab/GSW/Penetrate: Non- recent ( > 6hrs) peripheral wounds (without pri sympt)"
+    },
+    {
+        "code": "28",
+        "meaning": "Stroke (CVA)/Transient Ischemic Attack (TIA)"
+    },
+    {
+        "code": "28C01",
+        "meaning": "Stroke/TIA: Not alert"
+    },
+    {
+        "code": "28C02",
+        "meaning": "Stroke/TIA: Abnormal breathing"
+    },
+    {
+        "code": "28C03",
+        "meaning": "Stroke/TIA: Sudden speech problems"
+    },
+    {
+        "code": "28C04",
+        "meaning": "Stroke/TIA: Sudden weakness or numbness (one side)"
+    },
+    {
+        "code": "28C05",
+        "meaning": "Stroke/TIA: Sudden paralysis or facial droop (one side)"
+    },
+    {
+        "code": "28C06",
+        "meaning": "Stroke/TIA: Sudden loss of balance or coordination"
+    },
+    {
+        "code": "28C07",
+        "meaning": "Stroke/TIA: Sudden vision problems"
+    },
+    {
+        "code": "28C08",
+        "meaning": "Stroke/TIA: Sudden onset of severe headache"
+    },
+    {
+        "code": "28C09",
+        "meaning": "Stroke/TIA: Stroke history"
+    },
+    {
+        "code": "28C10",
+        "meaning": "Stroke/TIA:TIA (mini-stroke) history"
+    },
+    {
+        "code": "28C11",
+        "meaning": "Stroke/TIA: Breathing normally  > 35"
+    },
+    {
+        "code": "28C12",
+        "meaning": "Stroke/TIA: Unknown status/Other codes not applicable"
+    },
+    {
+        "code": "28A01",
+        "meaning": "Stroke/TIA: Breathing normally &lt; 35"
+    },
+    {
+        "code": "29",
+        "meaning": "Traffic/Transportation Incidents"
+    },
+    {
+        "code": "29D01",
+        "meaning": "MVA: Major accident"
+    },
+    {
+        "code": "29D02",
+        "meaning": "MVA: High mechanism"
+    },
+    {
+        "code": "29D03",
+        "meaning": "MVA: High velocity impact"
+    },
+    {
+        "code": "29D04",
+        "meaning": "MVA: Hazmat"
+    },
+    {
+        "code": "29D05",
+        "meaning": "MVA: Pinned (trapped) victim"
+    },
+    {
+        "code": "29D06",
+        "meaning": "MVA: Arrest"
+    },
+    {
+        "code": "29D07",
+        "meaning": "MVA: Unconscious"
+    },
+    {
+        "code": "29D08",
+        "meaning": "MVA: Not alert with noisy breathing(abnormal)"
+    },
+    {
+        "code": "29D09",
+        "meaning": "MVA: Not alert with normal breathing"
+    },
+    {
+        "code": "29B01",
+        "meaning": "MVA: Injuries"
+    },
+    {
+        "code": "29B02",
+        "meaning": "MVA: Serious hemorrhage"
+    },
+    {
+        "code": "29B03",
+        "meaning": "MVA: Other hazards"
+    },
+    {
+        "code": "29B04",
+        "meaning": "MVA: Low mechanism (1st or 2nd party caller)"
+    },
+    {
+        "code": "29B05",
+        "meaning": "MVA: Unknown status/other codes not applicable"
+    },
+    {
+        "code": "29A01",
+        "meaning": "MVA: 1st party caller with injury to not dangerous body area"
+    },
+    {
+        "code": "29A02",
+        "meaning": "MVA: No injuries reported (unconfirmed or > 5 persons involved)"
+    },
+    {
+        "code": "29Ω01",
+        "meaning": "MVA: No injuries (confirmed for all persons up to 4"
+    },
+    {
+        "code": "30",
+        "meaning": "Traumatic Injuries (Specific)"
+    },
+    {
+        "code": "30D01",
+        "meaning": "Trauma Inj: Arrest"
+    },
+    {
+        "code": "30D02",
+        "meaning": "Trauma Inj: Unconscious"
+    },
+    {
+        "code": "30D03",
+        "meaning": "Trauma Inj: Not alert"
+    },
+    {
+        "code": "30D04",
+        "meaning": "Trauma Inj: Chest or neck injury ( withdifficulty breathing )"
+    },
+    {
+        "code": "30D05",
+        "meaning": "Trauma Inj: High velocity impact/ Massinjury"
+    },
+    {
+        "code": "30B01",
+        "meaning": "Trauma Inj: Possibly dangerous body area"
+    },
+    {
+        "code": "30B02",
+        "meaning": "Trauma Inj: Serious hemorrhage"
+    },
+    {
+        "code": "30B03",
+        "meaning": "Trauma Inj: Unknown body area ( remotepatient location)"
+    },
+    {
+        "code": "30A01",
+        "meaning": "Trauma Inj: Not dangerous body area withdeformity"
+    },
+    {
+        "code": "30A02",
+        "meaning": "Trauma Inj: Not dangerous body area"
+    },
+    {
+        "code": "30A03",
+        "meaning": "Trauma Inj: Non- recent  ( > 6hrs ) injuries (without pri sympt)"
+    },
+    {
+        "code": "31",
+        "meaning": "Unconscious/Fainting (Near)"
+    },
+    {
+        "code": "31E01",
+        "meaning": "Uncon/Faint: Ineffective breathing"
+    },
+    {
+        "code": "31D01",
+        "meaning": "Uncon/Faint: Unconscious –Agonal/Ineffective breathing"
+    },
+    {
+        "code": "31D02",
+        "meaning": "Unconscious/Fainting - Abnormalbreathing"
+    },
+    {
+        "code": "31D03",
+        "meaning": "Unconscious/Fainting - Effective breathing"
+    },
+    {
+        "code": "31D04",
+        "meaning": "Unconscious/Fainting - Not alert"
+    },
+    {
+        "code": "31D05",
+        "meaning": "Unconscious/Fainting - CHANGING COLOR"
+    },
+    {
+        "code": "31C01",
+        "meaning": "Uncon/Faint: Alert with abnormalbreathing"
+    },
+    {
+        "code": "31C02",
+        "meaning": "Uncon/Faint: Fainting episode(s) and alert > 35 (with cardiac history)"
+    },
+    {
+        "code": "31C03",
+        "meaning": "Uncon/Faint: Fmale 12-50 with abdominalpain"
+    },
+    {
+        "code": "31A01",
+        "meaning": "Uncon/Faint: Fainting episode(s) and alert > 35 (without cardiac history)"
+    },
+    {
+        "code": "31A02",
+        "meaning": "Uncon/Faint: Fainting episode(s) and alert&lt; 35 (with cardiac history)"
+    },
+    {
+        "code": "31A03",
+        "meaning": "Uncon/Faint: Fainting episode(s) and alert&lt; 35 (without cardiac history)"
+    },
+    {
+        "code": "32",
+        "meaning": "Unknown Problem (Person down)"
+    },
+    {
+        "code": "32D01",
+        "meaning": "Unk Prob: Life status questionable"
+    },
+    {
+        "code": "32B01",
+        "meaning": "Unk Prob: Standing, sitting, moving, or talking"
+    },
+    {
+        "code": "32B02",
+        "meaning": "Unk Prob: Medical alarm (alert)notification (no patient info)"
+    },
+    {
+        "code": "32B03",
+        "meaning": "Unk Prob: Unknown status/other codes not applicable"
+    },
+    {
+        "code": "32B04",
+        "meaning": "Unk Prob: Caller ‘s language notunderstood (no interpreter in center)"
+    },
+    {
+        "code": "33",
+        "meaning": "Transfer/Interfacilty/Palliative Care"
+    },
+    {
+        "code": "33D01",
+        "meaning": "Trans/IFT: Suspected cardiac or respiratoryarrest"
+    },
+    {
+        "code": "33D02",
+        "meaning": "Trans/IFT: Just resuscitated and/ordefibrillated (external)"
+    },
+    {
+        "code": "33C01",
+        "meaning": "Trans/IFT: Not alert (acute change)"
+    },
+    {
+        "code": "33C02",
+        "meaning": "Trans/IFT: Abnormal breathing (acute onset)"
+    },
+    {
+        "code": "33C03",
+        "meaning": "Trans/IFT: Significant hemorrhage"
+    },
+    {
+        "code": "33C04",
+        "meaning": "Trans/IFT: Shock"
+    },
+    {
+        "code": "33C05",
+        "meaning": "Trans/IFT: Possible acute heart problems or MI (heart attack)"
+    },
+    {
+        "code": "33C06",
+        "meaning": "Trans/IFT: Severe pain"
+    },
+    {
+        "code": "33C07",
+        "meaning": "Trans/IFT: Emergency response requested"
+    },
+    {
+        "code": "33A01",
+        "meaning": "Trans/IFT: Acuity I (No pri sympt)1.     Blood pressure abnormality (Asymptomatic);2.     Dizziness/vertigo;3.     Fever/chills;4.     General weakness;5.     Nausea;6.    New onset immobility"
+    },
+    {
+        "code": "33A02",
+        "meaning": "Trans/IFT: Acuity II (No pri sympt)1.     Abnormal labs;2.     Gastric tube (in/out);3.     Urinary catheter (in/out) without hemorrhage;4.     Pain, non-traumatic;5.     Possible meningitis;6.     Possible norovirus;7.     Possible infection;8.    Transportation only;9.     Transport for diagnostic exam;10.   Unwell/ill;11.   Vomiting"
+    },
+    {
+        "code": "33A03",
+        "meaning": "Trans/IFT: Acuity III (No pri sympt)1.     Boils;2.     Bumps;3.     Can’t urinate;4.     Constipation;5.     Cramps/spasms;6.     Deafness;7.     Defecation/diarrhea;8.     Earache;9.     Gout;10.   Hemorrhoids/piles;11.   Hepatitis;12.   Hiccups;13.   Itching;14.  Joint pain;15.   Nervous;16.   Object stuck;17.   Painful urination;18.  Penis problems/pain;19.   Rash/skin disorder;20.   Sexually transmitted disease (STD;21.  Sore throat;22.  Toothache;23.  Wound infection"
+    },
+    {
+        "code": "34",
+        "meaning": "ACN (Automatic Crash Notification)"
+    },
+    {
+        "code": "34D01",
+        "meaning": "ACN: High mechanism"
+    },
+    {
+        "code": "34D02",
+        "meaning": "ACN: Unconscious or not alert"
+    },
+    {
+        "code": "34D03",
+        "meaning": "ACN: Not breathing/ineffective breathing"
+    },
+    {
+        "code": "34D04",
+        "meaning": "ACN: Life status questionable"
+    },
+    {
+        "code": "34B01",
+        "meaning": "ACN: injuries involved"
+    },
+    {
+        "code": "34B02",
+        "meaning": "ACN: Multiple victims (one unit)"
+    },
+    {
+        "code": "34B03",
+        "meaning": "ACN: Multiple victims (additional units)"
+    },
+    {
+        "code": "34B04",
+        "meaning": "ACN: Airbag/other automatic sensor (novoice)"
+    },
+    {
+        "code": "34B05",
+        "meaning": "ACN: Unknown situation/other codes notapplicable"
+    },
+    {
+        "code": "34A01",
+        "meaning": "ACN: Not dangerous injury (1st party &amp;single occupant)"
+    },
+    {
+        "code": "34A02",
+        "meaning": "ACN:"
+    },
+    {
+        "code": "34Ω01",
+        "meaning": "ACN: No injuries ( refer to police)"
+    }
+]
