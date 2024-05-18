@@ -337,7 +337,7 @@
     },
     {
         "code": "7A01",
-        "meaning": "Burns: Burns &lt; 18% body area"
+        "meaning": "Burns: Burns < 18% body area"
     },
     {
         "code": "7A02",
@@ -481,7 +481,7 @@
     },
     {
         "code": "10A01",
-        "meaning": "Chest Pain: Breathing normally &lt; 35"
+        "meaning": "Chest Pain: Breathing normally < 35"
     },
     {
         "code": "11",
@@ -553,7 +553,7 @@
     },
     {
         "code": "12B01",
-        "meaning": "Seizures: Effective breathing not verified &lt; 35"
+        "meaning": "Seizures: Effective breathing not verified < 35"
     },
     {
         "code": "12A01",
@@ -565,7 +565,7 @@
     },
     {
         "code": "12A03",
-        "meaning": "Seizures: Not seizing now &amp; effective breathing verified (&lt; 6, confirmed noseizure disorder)"
+        "meaning": "Seizures: Not seizing now &amp; effective breathing verified (< 6, confirmed noseizure disorder)"
     },
     {
         "code": "12A04",
@@ -821,7 +821,7 @@
     },
     {
         "code": "18C07",
-        "meaning": "Headache: Change in behavior (&lt; 3hrs)"
+        "meaning": "Headache: Change in behavior (< 3hrs)"
     },
     {
         "code": "18B01",
@@ -877,7 +877,7 @@
     },
     {
         "code": "19C06",
-        "meaning": "Heart Prob: Heart rate &lt; 50 bpm or  >130bpm (without pri sympt)"
+        "meaning": "Heart Prob: Heart rate < 50 bpm or  >130bpm (without pri sympt)"
     },
     {
         "code": "19C07",
@@ -885,11 +885,11 @@
     },
     {
         "code": "19A01",
-        "meaning": "Heart Prob: Heart rate  > 50 bpm or &lt; 130 bpm (without pri sympt)"
+        "meaning": "Heart Prob: Heart rate  > 50 bpm or < 130 bpm (without pri sympt)"
     },
     {
         "code": "19A02",
-        "meaning": "Heart Prob: Chest pain/discomfort &lt; 35 (without pri sympt)"
+        "meaning": "Heart Prob: Chest pain/discomfort < 35 (without pri sympt)"
     },
     {
         "code": "20",
@@ -1129,7 +1129,7 @@
     },
     {
         "code": "24C03",
-        "meaning": "Childbirth: Abdominal pain/cramping (&lt; 6months/24 weeks and no fetus or tissue)"
+        "meaning": "Childbirth: Abdominal pain/cramping (< 6months/24 weeks and no fetus or tissue)"
     },
     {
         "code": "24C04",
@@ -1401,7 +1401,7 @@
     },
     {
         "code": "28A01",
-        "meaning": "Stroke/TIA: Breathing normally &lt; 35"
+        "meaning": "Stroke/TIA: Breathing normally < 35"
     },
     {
         "code": "29",
@@ -1569,11 +1569,11 @@
     },
     {
         "code": "31A02",
-        "meaning": "Uncon/Faint: Fainting episode(s) and alert&lt; 35 (with cardiac history)"
+        "meaning": "Uncon/Faint: Fainting episode(s) and alert< 35 (with cardiac history)"
     },
     {
         "code": "31A03",
-        "meaning": "Uncon/Faint: Fainting episode(s) and alert&lt; 35 (without cardiac history)"
+        "meaning": "Uncon/Faint: Fainting episode(s) and alert< 35 (without cardiac history)"
     },
     {
         "code": "32",
