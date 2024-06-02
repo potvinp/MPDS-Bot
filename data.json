@@ -141,7 +141,7 @@
     },
     {
         "code": "3B03",
-        "meaning": "Animal Bite: Unknown Status/ other codes not applicable"
+        "meaning": "Animal Bite: Unknown Status/other codes not applicable"
     },
     {
         "code": "3A01",
@@ -213,11 +213,11 @@
     },
     {
         "code": "4A03",
-        "meaning": "Assault/Sexual Assault: Non-Recent (>6hrs) injuries (without pri sympt)"
+        "meaning": "Assault/Sexual Assault: Non-Recent (>6hrs) injuries (without primary symptoms)"
     },
     {
         "code": "5",
-        "meaning": "Back Pain (Non-Traumatic or Non- Recent Trauma)"
+        "meaning": "Back Pain (Non-Traumatic or Non-recent Trauma)"
     },
     {
         "code": "5D01",
@@ -249,7 +249,7 @@
     },
     {
         "code": "5A02",
-        "meaning": "Back Pain: Non-Recent (>6hrs) injuries (without pri sympt)"
+        "meaning": "Back Pain: Non-Recent (>6hrs) injuries (without primary symptoms)"
     },
     {
         "code": "6",
@@ -265,7 +265,7 @@
     },
     {
         "code": "6D02",
-        "meaning": "Breathing Prob: Difficulty Speaking btw breaths"
+        "meaning": "Breathing Prob: Difficulty Speaking between breaths"
     },
     {
         "code": "6D03",
@@ -313,7 +313,7 @@
     },
     {
         "code": "7D05",
-        "meaning": "Burns: Difficulty Speaking btw breaths"
+        "meaning": "Burns: Difficulty Speaking between breaths"
     },
     {
         "code": "7C01",
@@ -333,7 +333,7 @@
     },
     {
         "code": "7B01",
-        "meaning": "Burns/Explosion: Blast injuries (without pri sympt)"
+        "meaning": "Burns/Explosion: Blast injuries (without primary symptoms)"
     },
     {
         "code": "7B02",
@@ -357,7 +357,7 @@
     },
     {
         "code": "7A05",
-        "meaning": "Burns: Non-Recent (>6hrs) injuries (without pri sympt)"
+        "meaning": "Burns: Non-Recent (>6hrs) injuries (without primary symptoms)"
     },
     {
         "code": "8",
@@ -377,7 +377,7 @@
     },
     {
         "code": "8D04",
-        "meaning": "CO: Difficulty Speaking btw breaths"
+        "meaning": "CO: Difficulty Speaking between breaths"
     },
     {
         "code": "8D05",
@@ -397,7 +397,7 @@
     },
     {
         "code": "8Ω01",
-        "meaning": "CO: CO detector alarm(scene contact without pri sympt)"
+        "meaning": "CO: CO detector alarm(scene contact without primary symptoms)"
     },
     {
         "code": "8Ω02",
@@ -465,7 +465,7 @@
     },
     {
         "code": "10",
-        "meaning": "Chest Pain/Chest Discomfort (Non- Traumatic)"
+        "meaning": "Chest Pain/Chest Discomfort (Non-Traumatic)"
     },
     {
         "code": "10D01",
@@ -473,7 +473,7 @@
     },
     {
         "code": "10D02",
-        "meaning": "Chest Pain: Difficulty Speaking btw breaths"
+        "meaning": "Chest Pain: Difficulty Speaking between breaths"
     },
     {
         "code": "10D03",
@@ -521,7 +521,7 @@
     },
     {
         "code": "11A01",
-        "meaning": "Choking: Not choking now(can talk/cry, is alert &breathing normally)"
+        "meaning": "Choking: Not choking now (can talk/cry, is alert & breathing normally)"
     },
     {
         "code": "12",
@@ -885,31 +885,31 @@
     },
     {
         "code": "17A03",
-        "meaning": "Fall: Non-recent (> 6hrs) (without pri sympt)"
+        "meaning": "Fall: Non-recent (> 6hrs) (without primary symptoms)"
     },
     {
         "code": "17A03P",
-        "meaning": "Fall: Non-recent (> 6hrs) (without pri sympt)"
+        "meaning": "Fall: Non-recent (> 6hrs) (without primary symptoms)"
     },
     {
         "code": "17A03A",
-        "meaning": "Fall: Non-recent (> 6hrs) (without pri sympt)"
+        "meaning": "Fall: Non-recent (> 6hrs) (without primary symptoms)"
     },
     {
         "code": "17A03E",
-        "meaning": "Fall: Non-recent (> 6hrs) (without pri sympt)"
+        "meaning": "Fall: Non-recent (> 6hrs) (without primary symptoms)"
     },
     {
         "code": "17A03G",
-        "meaning": "Fall: Non-recent (> 6hrs) (without pri sympt)"
+        "meaning": "Fall: Non-recent (> 6hrs) (without primary symptoms)"
     },
     {
         "code": "17A03J",
-        "meaning": "Fall: Non-recent (> 6hrs) (without pri sympt)"
+        "meaning": "Fall: Non-recent (> 6hrs) (without primary symptoms)"
     },
     {
         "code": "17A04",
-        "meaning": "Fall: Public assist (no injuries and no pri sympt)"
+        "meaning": "Fall: Public assist (no injuries and no primary symptoms)"
     },
     {
         "code": "18",
@@ -961,7 +961,7 @@
     },
     {
         "code": "19D02",
-        "meaning": "Heart Prob: Difficulty speaking btw breaths"
+        "meaning": "Heart Prob: Difficulty speaking between breaths"
     },
     {
         "code": "19D03",
@@ -997,7 +997,7 @@
     },
     {
         "code": "19C06",
-        "meaning": "Heart Prob: Heart rate < 50 bpm or >130 bpm (without pri sympt)"
+        "meaning": "Heart Prob: Heart rate < 50 bpm or >130 bpm (without primary symptoms)"
     },
     {
         "code": "19C07",
@@ -1005,11 +1005,11 @@
     },
     {
         "code": "19A01",
-        "meaning": "Heart Prob: Heart rate > 50 bpm or < 130 bpm (without pri sympt)"
+        "meaning": "Heart Prob: Heart rate > 50 bpm or < 130 bpm (without primary symptoms)"
     },
     {
         "code": "19A02",
-        "meaning": "Heart Prob: Chest pain/discomfort < 35 (without pri sympt)"
+        "meaning": "Heart Prob: Chest pain/discomfort < 35 (without primary symptoms)"
     },
     {
         "code": "20",
@@ -1017,27 +1017,27 @@
     },
     {
         "code": "20D01",
-        "meaning": "Heat/Cold Exp: Not alert"
+        "meaning": "Heat/Cold Exposure: Not alert"
     },
     {
         "code": "20D02",
-        "meaning": "Heat/Cold Exp: Multiple victims (with pri sympt)"
+        "meaning": "Heat/Cold Exposure: Multiple victims (with primary symptoms)"
     },
     {
         "code": "20C01",
-        "meaning": "Heat/Cold Exp: Heart attack or angina history"
+        "meaning": "Heat/Cold Exposure: Heart attack or angina history"
     },
     {
         "code": "20B01",
-        "meaning": "Heat/Cold Exp: Change in skin color"
+        "meaning": "Heat/Cold Exposure: Change in skin color"
     },
     {
         "code": "20B02",
-        "meaning": "Heat/Cold Exp: Unknown status/other codes not applicable"
+        "meaning": "Heat/Cold Exposure: Unknown status/other codes not applicable"
     },
     {
         "code": "20A01",
-        "meaning": "Heat/Cold Exp: Alert"
+        "meaning": "Heat/Cold Exposure: Alert"
     },
     {
         "code": "21",
@@ -1045,63 +1045,63 @@
     },
     {
         "code": "21D01",
-        "meaning": "Hemorrhage/Lac: Arrest"
+        "meaning": "Hemorrhage/Lacerations: Arrest"
     },
     {
         "code": "21D02",
-        "meaning": "Hemorrhage/Lac: Unconscious"
+        "meaning": "Hemorrhage/Lacerations: Unconscious"
     },
     {
         "code": "21D03",
-        "meaning": "Hemorrhage/Lac: Not alert"
+        "meaning": "Hemorrhage/Lacerations: Not alert"
     },
     {
         "code": "21D04",
-        "meaning": "Hemorrhage/Lac: Dangerous hemorrhage"
+        "meaning": "Hemorrhage/Lacerations: Dangerous hemorrhage"
     },
     {
         "code": "21D05",
-        "meaning": "Hemorrhage/Lac: Abnormal bleeding"
+        "meaning": "Hemorrhage/Lacerations: Abnormal bleeding"
     },
     {
         "code": "21C01",
-        "meaning": "Hemorrhage/Lac: Hemorrhage through Tubes"
+        "meaning": "Hemorrhage/Lacerations: Hemorrhage through Tubes"
     },
     {
         "code": "21C02",
-        "meaning": "Hemorrhage/Lac: Hemorrhage of dialysis fistula"
+        "meaning": "Hemorrhage/Lacerations: Hemorrhage of dialysis fistula"
     },
     {
         "code": "21C03",
-        "meaning": "Hemorrhage/Lac: Hemorrhage from varicose veins"
+        "meaning": "Hemorrhage/Lacerations: Hemorrhage from varicose veins"
     },
     {
         "code": "21B01",
-        "meaning": "Hemorrhage/Lac: Possibly dangerous hemorrhage"
+        "meaning": "Hemorrhage/Lacerations: Possibly dangerous hemorrhage"
     },
     {
         "code": "21B02",
-        "meaning": "Hemorrhage/Lac: Serious hemorrhage"
+        "meaning": "Hemorrhage/Lacerations: Serious hemorrhage"
     },
     {
         "code": "21B03",
-        "meaning": "Hemorrhage/Lac: Bleeding disorder"
+        "meaning": "Hemorrhage/Lacerations: Bleeding disorder"
     },
     {
         "code": "21B04",
-        "meaning": "Hemorrhage/Lac: Blood thinners"
+        "meaning": "Hemorrhage/Lacerations: Blood thinners"
     },
     {
         "code": "21A01",
-        "meaning": "Hemorrhage/Lac: Not dangerous hemorrhage"
+        "meaning": "Hemorrhage/Lacerations: Not dangerous hemorrhage"
     },
     {
         "code": "21A02",
-        "meaning": "Hemorrhage/Lac: Minor hemorrhage"
+        "meaning": "Hemorrhage/Lacerations: Minor hemorrhage"
     },
     {
         "code": "22",
-        "meaning": "Inaccessible Incident/Other Entrapments (non- traffic)"
+        "meaning": "Inaccessible Incident/Other Entrapments (non-traffic)"
     },
     {
         "code": "22D01",
@@ -1125,7 +1125,7 @@
     },
     {
         "code": "22D06",
-        "meaning": "Trapped: Mudslide/ Avalanche"
+        "meaning": "Trapped: Mudslide/Avalanche"
     },
     {
         "code": "22B01",
@@ -1177,27 +1177,27 @@
     },
     {
         "code": "22B03",
-        "meaning": "Trapped: Unknown status (investigation)/ other codes not applicable"
+        "meaning": "Trapped: Unknown status (investigation)/other codes not applicable"
     },
     {
         "code": "22B03B",
-        "meaning": "Trapped: Unknown status (investigation)/ other codes not applicable"
+        "meaning": "Trapped: Unknown status (investigation)/other codes not applicable"
     },
     {
         "code": "22B03Y",
-        "meaning": "Trapped: Unknown status (investigation)/ other codes not applicable"
+        "meaning": "Trapped: Unknown status (investigation)/other codes not applicable"
     },
     {
         "code": "22B03A",
-        "meaning": "Trapped: Unknown status (investigation)/ other codes not applicable"
+        "meaning": "Trapped: Unknown status (investigation)/other codes not applicable"
     },
     {
         "code": "22B03M",
-        "meaning": "Trapped: Unknown status (investigation)/ other codes not applicable"
+        "meaning": "Trapped: Unknown status (investigation)/other codes not applicable"
     },
     {
         "code": "22B03X",
-        "meaning": "Trapped: Unknown status (investigation)/ other codes not applicable"
+        "meaning": "Trapped: Unknown status (investigation)/other codes not applicable"
     },
     {
         "code": "22A01",
@@ -1257,11 +1257,11 @@
     },
     {
         "code": "23B01",
-        "meaning": "OD/Poison: Overdose (without pri sympt)"
+        "meaning": "OD/Poison: Overdose (without primary symptoms)"
     },
     {
         "code": "23Ω01",
-        "meaning": "OD/Poison: Poisoning (without pri sympt)"
+        "meaning": "OD/Poison: Poisoning (without primary symptoms)"
     },
     {
         "code": "24",
@@ -1313,7 +1313,7 @@
     },
     {
         "code": "24C04",
-        "meaning": "Childbirth: Baby born (no complications )"
+        "meaning": "Childbirth: Baby born (no complications)"
     },
     {
         "code": "24B01",
@@ -1457,23 +1457,167 @@
     },
     {
         "code": "26A01",
-        "meaning": "Sick Person: No pri sympt"
+        "meaning": "Sick Person: No primary symptoms"
     },
     {
-        "code": "26A02-12",
-        "meaning": "Sick Person: Non- pri complaints"
+        "code": "26A02",
+        "meaning": "Sick Person: Non-primary complaints"
     },
     {
-        "code": "26Ω 2-28 (1 to 3; 5 to 8; 10 to 28",
-        "meaning": "Sick Person: Non- pri complaints"
+        "code": "26A03",
+        "meaning": "Sick Person: Non-primary complaints"
     },
     {
-        "code": "26Ω (9)",
-        "meaning": "Sick Person: Non-pri complaints (request to cut off ring)"
+        "code": "26A04",
+        "meaning": "Sick Person: Non-primary complaints"
     },
     {
-        "code": "26Ω (4)",
-        "meaning": "Sick Person: Non -pri complaints (can't sleep)"
+        "code": "26A05",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26A06",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26A07",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26A08",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26A09",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26A10",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26A11",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26A12",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω01",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω02",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω03",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω05",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω06",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω07",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω08",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω09",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω10",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω11",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω12",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω13",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω14",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω15",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω16",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω17",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω18",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω19",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω20",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω21",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω22",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω23",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω24",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω25",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω26",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω27",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω28",
+        "meaning": "Sick Person: Non-primary complaints"
+    },
+    {
+        "code": "26Ω9",
+        "meaning": "Sick Person: Non-primary complaints (request to cut off ring)"
+    },
+    {
+        "code": "26Ω4",
+        "meaning": "Sick Person: Non-primary complaints (can't sleep)"
     },
     {
         "code": "27",
@@ -1525,27 +1669,27 @@
     },
     {
         "code": "27A01X",
-        "meaning": "Stab/GSW/Penetrate: Non- recent (> 6hrs) peripheral wounds (without pri sympt)"
+        "meaning": "Stab/GSW/Penetrate: Non-recent (> 6hrs) peripheral wounds (without primary symptoms)"
     },
     {
         "code": "27A01Y",
-        "meaning": "Stab/GSW/Penetrate: Non- recent (> 6hrs) peripheral wounds (without pri sympt)"
+        "meaning": "Stab/GSW/Penetrate: Non-recent (> 6hrs) peripheral wounds (without primary symptoms)"
     },
     {
         "code": "27A01S",
-        "meaning": "Stab/GSW/Penetrate: Non- recent (> 6hrs) peripheral wounds (without pri sympt)"
+        "meaning": "Stab/GSW/Penetrate: Non-recent (> 6hrs) peripheral wounds (without primary symptoms)"
     },
     {
         "code": "27A01G",
-        "meaning": "Stab/GSW/Penetrate: Non- recent (> 6hrs) peripheral wounds (without pri sympt)"
+        "meaning": "Stab/GSW/Penetrate: Non-recent (> 6hrs) peripheral wounds (without primary symptoms)"
     },
     {
         "code": "27A01P",
-        "meaning": "Stab/GSW/Penetrate: Non- recent (> 6hrs) peripheral wounds (without pri sympt)"
+        "meaning": "Stab/GSW/Penetrate: Non-recent (> 6hrs) peripheral wounds (without primary symptoms)"
     },
     {
         "code": "27A01I",
-        "meaning": "Stab/GSW/Penetrate: Non- recent (> 6hrs) peripheral wounds (without pri sympt)"
+        "meaning": "Stab/GSW/Penetrate: Non-recent (> 6hrs) peripheral wounds (without primary symptoms)"
     },
     {
         "code": "28",
@@ -2345,7 +2489,7 @@
     },
     {
         "code": "29Ω01",
-        "meaning": "MVA: No injuries (confirmed for all persons up to 4"
+        "meaning": "MVA: No injuries (confirmed for all persons up to 4)"
     },
     {
         "code": "30",
@@ -2365,11 +2509,11 @@
     },
     {
         "code": "30D04",
-        "meaning": "Trauma Inj: Chest or neck injury ( with difficulty breathing )"
+        "meaning": "Trauma Inj: Chest or neck injury (with difficulty breathing)"
     },
     {
         "code": "30D05",
-        "meaning": "Trauma Inj: High velocity impact/ Mass injury"
+        "meaning": "Trauma Inj: High velocity impact/Mass injury"
     },
     {
         "code": "30B01",
@@ -2381,7 +2525,7 @@
     },
     {
         "code": "30B03",
-        "meaning": "Trauma Inj: Unknown body area ( remote patient location)"
+        "meaning": "Trauma Inj: Unknown body area (remote patient location)"
     },
     {
         "code": "30A01",
@@ -2393,7 +2537,7 @@
     },
     {
         "code": "30A03",
-        "meaning": "Trauma Inj: Non- recent  (> 6hrs ) injuries (without pri sympt)"
+        "meaning": "Trauma Inj: Non-recent  (> 6hrs) injuries (without primary symptoms)"
     },
     {
         "code": "31",
@@ -2513,15 +2657,15 @@
     },
     {
         "code": "33A01",
-        "meaning": "Trans/IFT: Acuity I (No pri sympt)\n1.    Blood pressure abnormality (Asymptomatic); \n2.    Dizziness/vertigo; \n3.    Fever/chills; \n4.    General weakness; \n5.    Nausea; \n6.    New onset immobility"
+        "meaning": "Trans/IFT: Acuity I (No primary symptoms)\n1.    Blood pressure abnormality (Asymptomatic); \n2.    Dizziness/vertigo; \n3.    Fever/chills; \n4.    General weakness; \n5.    Nausea; \n6.    New onset immobility"
     },
     {
         "code": "33A02",
-        "meaning": "Trans/IFT: Acuity II (No pri sympt)\n1.    Abnormal labs; \n2.    Gastric tube (in/out); \n3.    Urinary catheter (in/out) without hemorrhage; \n4.    Pain, non-traumatic; \n5.    Possible meningitis; \n6.    Possible norovirus; \n7.    Possible infection; \n8.    Transportation only; \n9.    Transport for diagnostic exam; \n10.  Unwell/ill; \n11.  Vomiting"
+        "meaning": "Trans/IFT: Acuity II (No primary symptoms)\n1.    Abnormal labs; \n2.    Gastric tube (in/out); \n3.    Urinary catheter (in/out) without hemorrhage; \n4.    Pain, non-traumatic; \n5.    Possible meningitis; \n6.    Possible norovirus; \n7.    Possible infection; \n8.    Transportation only; \n9.    Transport for diagnostic exam; \n10.  Unwell/ill; \n11.  Vomiting"
     },
     {
         "code": "33A03",
-        "meaning": "Trans/IFT: Acuity III (No pri sympt)\n1.    Boils; \n2.    Bumps; \n3.    Can't urinate; \n4.    Constipation; \n5.    Cramps/spasms; \n6.    Deafness; \n7.    Defecation/diarrhea; \n8.    Earache; \n9.    Gout; \n10.  Hemorrhoids/piles; \n11.  Hepatitis; \n12.  Hiccups; \n13.  Itching; \n14.  Joint pain; \n15.  Nervous; \n16.  Object stuck; \n17.  Painful urination; \n18.  Penis problems/pain; \n19.  Rash/skin disorder; \n20.  Sexually transmitted disease (STD); \n21.  Sore throat; \n22.  Toothache; \n23.  Wound infection"
+        "meaning": "Trans/IFT: Acuity III (No primary symptoms)\n1.    Boils; \n2.    Bumps; \n3.    Can't urinate; \n4.    Constipation; \n5.    Cramps/spasms; \n6.    Deafness; \n7.    Defecation/diarrhea; \n8.    Earache; \n9.    Gout; \n10.  Hemorrhoids/piles; \n11.  Hepatitis; \n12.  Hiccups; \n13.  Itching; \n14.  Joint pain; \n15.  Nervous; \n16.  Object stuck; \n17.  Painful urination; \n18.  Penis problems/pain; \n19.  Rash/skin disorder; \n20.  Sexually transmitted disease (STD); \n21.  Sore throat; \n22.  Toothache; \n23.  Wound infection"
     },
     {
         "code": "34",
@@ -2565,7 +2709,7 @@
     },
     {
         "code": "34A01",
-        "meaning": "ACN: Not dangerous injury (1st party &single occupant)"
+        "meaning": "ACN: Not dangerous injury (1st party & single occupant)"
     },
     {
         "code": "34A02",
@@ -2573,6 +2717,6 @@
     },
     {
         "code": "34Ω01",
-        "meaning": "ACN: No injuries ( refer to police)"
+        "meaning": "ACN: No injuries (refer to police)"
     }
    ]
