@@ -1,9 +1,8 @@
 ## MPDS Bot
 
-MPDS Bot is a Discord bot designed to respond to queries of MPDS codes and return the correspending meaning. It supports both prefix-based commands and slash commands.
+MPDS Bot is a Discord bot designed to respond to queries of MPDS codes and return the correspending meaning, utilizing slash commands.
 
 ### Features
-- Responds to queries using prefix-based syntax (`mpds QUERY_HERE`)
 - Supports slash commands (`/mpds code:QUERY_HERE`)
 - Easy configuration and data management through a JSON file
 
@@ -49,14 +48,8 @@ node index.js
 The bot will log in and register the global slash command. Note that global slash commands can take up to an hour to propagate across all guilds.
 
 ## Usage
-### Prefix-Based Command
-Users can query the bot using the prefix-based command in any text channel:
-```
-mpds example1
-```
-
 ### Slash Command
-Users can also query the bot using the slash command:
+Users can query the bot using the slash command:
 ```
 /mpds code:example1
 ```
