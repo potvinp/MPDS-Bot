@@ -37,9 +37,9 @@ client.once('ready', () => {
 
 client.on('messageCreate', async message => {
   if (message.content.startsWith(prefix)) {
-    const query = message.content.slice(prefix.length).trim().toUpperCase();
+    const query = message.content.slice(prefix.length).trim().normalize('NFC').toUpperCase();
     console.log('Received query:', query);
-    const result = data.find(item => item.code.toUpperCase() === query);
+    const result = data.find(item => item.code.normalize('NFC').toUpperCase() === query);
     console.log('Query result:', result);
     if (result) {
       message.channel.send(`${result.code} - ${result.meaning}`);
@@ -55,9 +55,9 @@ client.on('interactionCreate', async interaction => {
   const { commandName, options } = interaction;
 
   if (commandName === 'mpds') {
-    const query = options.getString('code').toUpperCase();
+    const query = options.getString('code').normalize('NFC').toUpperCase();
     console.log('Received query:', query);
-    const result = data.find(item => item.code.toUpperCase() === query);
+    const result = data.find(item => item.code.normalize('NFC').toUpperCase() === query);
     console.log('Query result:', result);
     if (result) {
       await interaction.reply(`${result.code} - ${result.meaning}`);
