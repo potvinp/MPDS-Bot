@@ -1,20 +1,30 @@
 require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
-const fs = require('fs');
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages] });
 
 const prefix = "mpds ";
-let data;
+let data = [];
 
-fs.readFile('data.json', (err, jsonData) => {
-  if (err) {
-    console.error('Error reading data.json:', err);
-    return;
+// Function to fetch data from the URL
+const fetchData = async () => {
+  try {
+    const fetch = (await import('node-fetch')).default;
+    const response = await fetch('https://raw.githubusercontent.com/potvinp/MPDS-Bot/master/data.json');
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const jsonData = await response.json();
+    data = jsonData; // Update the data in memory
+    console.log('Data loaded:', data);
+  } catch (error) {
+    console.error('Error fetching data:', error);
   }
-  data = JSON.parse(jsonData);
-  console.log('Data loaded:', data);
-});
+};
+
+// Fetch data immediately and then every 12 hours
+fetchData();
+setInterval(fetchData, 12 * 60 * 60 * 1000);
 
 client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -37,9 +47,9 @@ client.once('ready', () => {
 
 client.on('messageCreate', async message => {
   if (message.content.startsWith(prefix)) {
-    const query = message.content.slice(prefix.length).trim().toUpperCase();
+    const query = message.content.slice(prefix.length).trim().normalize('NFC').toUpperCase();
     console.log('Received query:', query);
-    const result = data.find(item => item.code.toUpperCase() === query);
+    const result = data.find(item => item.code.normalize('NFC').toUpperCase() === query);
     console.log('Query result:', result);
     if (result) {
       message.channel.send(`${result.code} - ${result.meaning}`);
@@ -55,9 +65,9 @@ client.on('interactionCreate', async interaction => {
   const { commandName, options } = interaction;
 
   if (commandName === 'mpds') {
-    const query = options.getString('code').toUpperCase();
+    const query = options.getString('code').normalize('NFC').toUpperCase();
     console.log('Received query:', query);
-    const result = data.find(item => item.code.toUpperCase() === query);
+    const result = data.find(item => item.code.normalize('NFC').toUpperCase() === query);
     console.log('Query result:', result);
     if (result) {
       await interaction.reply(`${result.code} - ${result.meaning}`);
